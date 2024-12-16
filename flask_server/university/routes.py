@@ -1,6 +1,6 @@
-from .models import Teacher, Holidays, Student, Course
+from .models import Teacher, Holidays, Student, Course, Notices
 from flask_server import db, app
-from flask import render_template, request, jsonify, redirect, url_for, Blueprint, send_file
+from flask import flash, render_template, request, jsonify, redirect, url_for, Blueprint, send_file
 from io import BytesIO
 
 
@@ -90,6 +90,40 @@ def holidays():
 def holidays_file_api(id):
     holiday = Holidays.query.filter_by(id=id).first()
     return send_file(BytesIO(holiday.data), download_name=holiday.file_name)
+
+
+# =============================
+# NOTICES
+# =============================
+
+@app.route("/notices/", methods=['POST', 'GET'])
+def notices():
+    if request.method == 'POST':
+        date = request.form['date']
+        file = request.files['file']
+        
+        # Ensure only PDFs are uploaded
+        if file.mimetype != 'application/pdf':
+            flash("Only PDF files are allowed.")
+            return redirect(url_for('notices'))
+        
+        new_notice = Notices(
+            date=date, file_name=file.filename, data=file.read()
+        )
+        db.session.add(new_notice)
+        db.session.commit()
+        print(f"{new_notice} added")
+        return redirect(url_for('notices'))
+
+    notices = Notices.query.all()
+    return render_template('notices.html', notices=notices)
+
+
+@app.route("/notices/download/<int:id>/")
+def notices_file_api(id):
+    notice = Notices.query.filter_by(id=id).first()
+    return send_file(BytesIO(notice.data), download_name=notice.file_name)
+
 
 
 # ====================================

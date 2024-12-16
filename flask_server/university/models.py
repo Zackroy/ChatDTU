@@ -19,6 +19,16 @@ class Holidays(db.Model):
     def __repr__(self):
         return f"Holidays ID : {self.id} for year : {self.year}"
 
+class Notices(db.Model):
+    id = db.Column('notice_id', db.Integer(), primary_key=True)
+    date = db.Column(db.String(length=50), nullable=False)  # Store the notice date as a string for flexibility
+    file_name = db.Column(db.String(length=123), nullable=False)
+    data = db.Column(db.LargeBinary(), nullable=False)  # Store the PDF data
+
+    def __repr__(self):
+        return f"Notice ID: {self.id} for date: {self.date}"
+
+
 class Student(db.Model):
     id = db.Column('student_id',db.Integer(),primary_key=True)
     name=db.Column(db.String(length=123),nullable=False)

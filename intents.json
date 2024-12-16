@@ -122,6 +122,32 @@
         "The department heads and their contact details are available in the faculty section on the website. <ul><li>Refer to this <a href = 'https://www.dtu.ac.in/Web/Departments/CSE/faculty/'>link</a> for the faculty of <b>CSE</b> dept</li> <li>Refer to this <a href='https://www.dtu.ac.in/Web/Departments/InformationTechnology/faculty/'>link</a> for the faculty of <b>IT</b> dept</li> <li>Refer to this <a href='https://www.dtu.ac.in/Web/Departments/SE/faculty/'>link</a> for the faculty of <b>SE</b> dept</li> <li>Refer to this <a href='https://www.dtu.ac.in/Web/Departments/Electronics/faculty/'>link</a> for the faculty of <b>ECE</b> dept</li> <li>Refer to this <a href='https://www.dtu.ac.in/Web/Departments/Electrical/faculty/'>link</a> for the faculty of <b>EE</b> dept</li> <li>Refer to this <a href='https://www.dtu.ac.in/Web/Departments/Mechanical/faculty/'>link</a> for the faculty of <b>ME</b> dept</li> <li>Refer to this <a href='https://www.dtu.ac.in/Web/Departments/Civil/faculty/'>link</a> for the faculty of <b>Civil</b> dept</li> <li>Refer to this <a href='https://www.dtu.ac.in/Web/Departments/BioTech/faculty/'>link</a> for the faculty of <b>BT</b> dept</li></ul>",
         "Details about faculty research work and publications are regularly updated on their profiles. <ul><li>Refer to this <a href = 'https://www.dtu.ac.in/Web/Departments/CSE/faculty/'>link</a> for the faculty of <b>CSE</b> dept</li> <li>Refer to this <a href='https://www.dtu.ac.in/Web/Departments/InformationTechnology/faculty/'>link</a> for the faculty of <b>IT</b> dept</li> <li>Refer to this <a href='https://www.dtu.ac.in/Web/Departments/SE/faculty/'>link</a> for the faculty of <b>SE</b> dept</li> <li>Refer to this <a href='https://www.dtu.ac.in/Web/Departments/Electronics/faculty/'>link</a> for the faculty of <b>ECE</b> dept</li> <li>Refer to this <a href='https://www.dtu.ac.in/Web/Departments/Electrical/faculty/'>link</a> for the faculty of <b>EE</b> dept</li> <li>Refer to this <a href='https://www.dtu.ac.in/Web/Departments/Mechanical/faculty/'>link</a> for the faculty of <b>ME</b> dept</li> <li>Refer to this <a href='https://www.dtu.ac.in/Web/Departments/Civil/faculty/'>link</a> for the faculty of <b>Civil</b> dept</li> <li>Refer to this <a href='https://www.dtu.ac.in/Web/Departments/BioTech/faculty/'>link</a> for the faculty of <b>BT</b> dept</li></ul>"
       ]
-    }
+    },
+    {
+      "tag": "notices",
+      "patterns": [
+        "Tell me about the notices",
+        "What are the notices?",
+        "Can you provide details about the notices?",
+        "Where can I find the latest notices?",
+        "Show me the notices.",
+        "Do you have any new notices?",
+        "What are the recent updates in the notices?",
+        "Provide details about recent notices.",
+        "How can I download the notices?",
+        "Are there any new announcements?",
+        "Is there a notice about [specific topic]?",
+        "List all the notices.",
+        "Share the official notices.",
+        "What’s mentioned in the notice board?",
+        "Any notices about exams or schedules?",
+        "What notices have been issued by the administration?",
+        "Can I get a PDF of the notices?",
+        "Where can I view notices from [specific department or date]?",
+        "Are there notices regarding holidays or events?",
+        "Who issues the notices?"
+      ],
+      "responses": [""]
+    }    
   ]
 }
