@@ -94,12 +94,7 @@
         "Are there holidays during festivals?",
         "Can I take a leave for personal reasons?"
       ],
-      "responses": [
-        "Please refer to this document: https://www.dtu.ac.in/Web/notice/2023/dec/file1234.pdf",
-        "Holidays depend on the academic calendar. Check the provided link for details: https://www.dtu.ac.in/Web/notice/2023/dec/file1234.pdf",
-        "Semester breaks are typically announced at the start of the academic year. Check this link for more details: https://www.dtu.ac.in/Web/notice/2023/dec/file1234.pdf",
-        "Festival holidays and study breaks are included in the academic schedule. Refer to this link for more details: https://www.dtu.ac.in/Web/notice/2023/dec/file1234.pdf"
-      ]
+      "responses": [""]
     },
     {
       "tag": "faculty",
