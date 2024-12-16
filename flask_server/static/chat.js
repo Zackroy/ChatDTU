@@ -37,7 +37,7 @@ function addMessage(message, msgtype) {
     const chatMessage = document.createElement("div");
     chatMessage.classList.add("chat-message");
     chatMessage.classList.add(`${msgtype}-message`);
-    chatMessage.innerText = message;
+    chatMessage.innerHTML = message;
     document.querySelector(".chat-messages").appendChild(chatMessage);
     document.querySelector(".chat-messages").scrollTop +=
         chatMessage.getBoundingClientRect().y + 20;
