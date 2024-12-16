@@ -1,0 +1,132 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello there",
+        "Hi there!",
+        "Greetings",
+        "What's up?",
+        "Howdy",
+        "Hey there",
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi! Glad to see you here.",
+        "Hey there! What can I do for you?",
+        "Hi! How may I help you today?",
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Take care",
+        "Catch you later",
+        "Farewell",
+        "Good night",
+        "See ya",
+        "Later!",
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "Goodbye! Have a great day ahead.",
+        "Take care! Hope to see you again.",
+        "Farewell! Let me know if you need help next time.",
+        "See you! Wishing you all the best.",
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks a lot",
+        "Much appreciated",
+        "I'm grateful",
+        "Thank you so much",
+        "Many thanks",
+        "Appreciate it",
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "Okay"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help!",
+        "Always here to assist.",
+        "No problem at all!",
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "holidays",
+      "patterns": [
+        "When are holidays ? ",
+        "What kinds of holidays are there?",
+        "What holidays do we have?",
+        "tell more about holidays",
+        "holidays when ???",
+        "which days are holidays ?",
+        "How many days can we get after seach sem ?",
+        "Can we get study leave ?",
+        "what are the biggest holidays we can get ??",
+        "Are there any department wise special holiday ?",
+        "Can you provide information on semester breaks?",
+        "Is there a holiday calendar available?",
+        "How long is the summer vacation?",
+        "Are there holidays during festivals?",
+        "Can I take a leave for personal reasons?"
+      ],
+      "responses": [
+        "Please refer to this document: https://www.dtu.ac.in/Web/notice/2023/dec/file1234.pdf",
+        "Holidays depend on the academic calendar. Check the provided link for details: https://www.dtu.ac.in/Web/notice/2023/dec/file1234.pdf",
+        "Semester breaks are typically announced at the start of the academic year. Check this link for more details: https://www.dtu.ac.in/Web/notice/2023/dec/file1234.pdf",
+        "Festival holidays and study breaks are included in the academic schedule. Refer to this link for more details: https://www.dtu.ac.in/Web/notice/2023/dec/file1234.pdf"
+      ]
+    },
+    {
+      "tag": "faculty",
+      "patterns": [
+        "Do you know the teachers ?",
+        "Who are the teachers ?",
+        "Can you tell more about teachers?",
+        "Tell me about teachers  ",
+        "more info on teachers",
+        "what are the teachers ?",
+        "tell more about the teachers",
+        "narula teachers",
+        "who is the the principal and what about the placement officer??",
+        "How can I contact faculty members?",
+        "Who heads the department?",
+        "Provide details about the professors.",
+        "Are there any faculty research publications?",
+        "How can I get a list of faculty?",
+        "Who are the guest lecturers?",
+        "Do we have faculty from foreign universities?"
+      ],
+      "responses": [
+        "Our Chancellor is Shri Vinai Kumar Saxena and our Vice Chancellor is Prof. Prateek Sharma. \n Refer to this link for the faculty of CSE dept: https://www.dtu.ac.in/Web/Departments/CSE/faculty/ \n Refer to this link for the faculty of IT dept: https://www.dtu.ac.in/Web/Departments/InformationTechnology/faculty/ \n Refer to this link for the faculty of SE dept: https://www.dtu.ac.in/Web/Departments/SE/faculty/ \n Refer to this link for the faculty of ECE dept: https://www.dtu.ac.in/Web/Departments/Electronics/faculty/ \n Refer to this link for the faculty of EE dept: https://www.dtu.ac.in/Web/Departments/Electrical/faculty/ \n Refer to this link for the faculty of ME dept: https://www.dtu.ac.in/Web/Departments/Mechanical/faculty/ \n Refer to this link for the faculty of Civil dept: https://www.dtu.ac.in/Web/Departments/Civil/faculty/ \n Refer to this link for the faculty of BT dept: https://www.dtu.ac.in/Web/Departments/BioTech/faculty/",
+        "You can reach out to faculty via their departmental email addresses listed on the website. \n Refer to this link for the faculty of CSE dept: https://www.dtu.ac.in/Web/Departments/CSE/faculty/ \n Refer to this link for the faculty of IT dept: https://www.dtu.ac.in/Web/Departments/InformationTechnology/faculty/ \n Refer to this link for the faculty of SE dept: https://www.dtu.ac.in/Web/Departments/SE/faculty/ \n Refer to this link for the faculty of ECE dept: https://www.dtu.ac.in/Web/Departments/Electronics/faculty/ \n Refer to this link for the faculty of EE dept: https://www.dtu.ac.in/Web/Departments/Electrical/faculty/ \n Refer to this link for the faculty of ME dept: https://www.dtu.ac.in/Web/Departments/Mechanical/faculty/ \n Refer to this link for the faculty of Civil dept: https://www.dtu.ac.in/Web/Departments/Civil/faculty/ \n Refer to this link for the faculty of BT dept: https://www.dtu.ac.in/Web/Departments/BioTech/faculty/",
+        "The department heads and their contact details are available in the faculty section on the website. \n Refer to this link for the faculty of CSE dept: https://www.dtu.ac.in/Web/Departments/CSE/faculty/ \n Refer to this link for the faculty of IT dept: https://www.dtu.ac.in/Web/Departments/InformationTechnology/faculty/ \n Refer to this link for the faculty of SE dept: https://www.dtu.ac.in/Web/Departments/SE/faculty/ \n Refer to this link for the faculty of ECE dept: https://www.dtu.ac.in/Web/Departments/Electronics/faculty/ \n Refer to this link for the faculty of EE dept: https://www.dtu.ac.in/Web/Departments/Electrical/faculty/ \n Refer to this link for the faculty of ME dept: https://www.dtu.ac.in/Web/Departments/Mechanical/faculty/ \n Refer to this link for the faculty of Civil dept: https://www.dtu.ac.in/Web/Departments/Civil/faculty/ \n Refer to this link for the faculty of BT dept: https://www.dtu.ac.in/Web/Departments/BioTech/faculty/",
+        "Details about faculty research work and publications are regularly updated on their profiles. \n Refer to this link for the faculty of CSE dept: https://www.dtu.ac.in/Web/Departments/CSE/faculty/ \n Refer to this link for the faculty of IT dept: https://www.dtu.ac.in/Web/Departments/InformationTechnology/faculty/ \n Refer to this link for the faculty of SE dept: https://www.dtu.ac.in/Web/Departments/SE/faculty/ \n Refer to this link for the faculty of ECE dept: https://www.dtu.ac.in/Web/Departments/Electronics/faculty/ \n Refer to this link for the faculty of EE dept: https://www.dtu.ac.in/Web/Departments/Electrical/faculty/ \n Refer to this link for the faculty of ME dept: https://www.dtu.ac.in/Web/Departments/Mechanical/faculty/ \n Refer to this link for the faculty of Civil dept: https://www.dtu.ac.in/Web/Departments/Civil/faculty/ \n Refer to this link for the faculty of BT dept: https://www.dtu.ac.in/Web/Departments/BioTech/faculty/"
+      ]
+    }
+  ]
+}
