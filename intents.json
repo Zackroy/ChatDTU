@@ -148,6 +148,31 @@
         "Who issues the notices?"
       ],
       "responses": [""]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "Which courses are offered here?",
+        "Tell me more about B.Tech.",
+        "How long does it take to complete B.Tech?",
+        "What are the top courses available here?",
+        "Can you explain the fee structure?",
+        "Are there any medical courses offered?",
+        "How much time does it take to complete the courses?",
+        "What are the eligibility criteria for B.Tech?",
+        "Do you offer diploma courses?",
+        "Are there any online or distance learning programs?",
+        "Is there an MBA program?",
+        "What is the admission process for these courses?",
+        "Are there any scholarships available?",
+        "Can you tell me about short-term certification courses?",
+        "Do you offer language courses or skill-based programs?",
+        "What are the placement opportunities for these courses?"
+      ],
+      "responses": [
+        "Following are the courses offered in B.Tech in DTU: <ul><li>Computer Science and Engineering(CSE)</li><li>Information Technology(IT)</li><li>Software Engineering(SE)</li><li>Mathematics and Computing Engineering(MCE)</li><li>Electronics and Communication Engineering(ECE)</li><li>Electrical Engineering(EE)</li><li>Mechanical Engineering(ME)</li><li>Production & Industrial Engineering (PIE)</li><li>Civil Engineering (CE)</li><li>Environmental Engineering (ENE)</li><li>Bio-Technology (BT)</li><li>Engineering Physics (EP)</li></ul>",
+        "Please refer to this <a href='https://dtu.ac.in/Web/Academics/bacheloroftechnology.php'>link</a>"
+      ]
     }    
   ]
 }
